@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edtupdate_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="id"
+        android:visibility="gone"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edtupdate_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/edtupdate_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number"
+        android:inputType="phone"/>
+
+    <EditText
+        android:id="@+id/edtupdate_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date" />
+
+    <EditText
+        android:id="@+id/edtupdate_remark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Remark" />
+
+    <Button
+        android:id="@+id/btnupdate_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Update"
+        android:textSize="20dp" />
+</LinearLayout>

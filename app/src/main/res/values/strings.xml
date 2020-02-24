@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DataManagement</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="runtime_permissions_txt">Please Allow All Permissions</string>
+    <string name="Rs">\u20B9</string>
+</resources>
